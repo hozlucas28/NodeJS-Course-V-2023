@@ -13,7 +13,8 @@
 	"devDependencies": {
 		"husky": "^8.0.3",
 		"lint-staged": "^14.0.0",
-		"prettier": "3.0.2"
+		"prettier": "^3.0.3",
+		"prettier-plugin-sql": "^0.15.1"
 	},
 	"homepage": "https://github.com/hozlucas28/NodeJS-Course-V-2023#readme",
 	"keywords": [
@@ -34,7 +35,6 @@
 		"url": "https://github.com/hozlucas28/NodeJS-Course-V-2023.git"
 	},
 	"scripts": {
-		"start:dev": "node --watch src/index.js",
 		"start:local": "node src/server-with-local.js",
 		"start:mysql": "node src/server-with-mysql.js"
 	},

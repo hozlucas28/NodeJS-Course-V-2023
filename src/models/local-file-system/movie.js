@@ -10,7 +10,7 @@ import { createRequire } from 'node:module'
 
 // Segunda forma de importar un JSON utilizando "ECMA modules"
 const require = createRequire(import.meta.url)
-const moviesJSON = require('../data/movies.json')
+const moviesJSON = require('../../data/movies.json')
 
 export class MovieModel {
 	/* ----------------------------------- GET ---------------------------------- */
