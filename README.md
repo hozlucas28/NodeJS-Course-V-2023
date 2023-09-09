@@ -36,7 +36,7 @@
 <p>
     <i>
         <strong>• Important:</strong>
-        I you want to run command <code>npm run start:mysql</code>, you have to modified the <a href="src\models\mysql\movie.js">config connection</a> constant and run the queries inside <a href="src\models\mysql\test-queries.sql">test-queries.sql</a> to create the corresponding database.
+        I you want to run command <code>npm run start:mysql</code>, you have to modified the <a href="src\models\mysql\movie.js#L3">config connection</a> constant and run the queries inside <a href="src\models\mysql\test-queries.sql">test-queries.sql</a> to create the corresponding database.
     </i>
 </p>
 
